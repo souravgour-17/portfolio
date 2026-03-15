@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Gour | MERN Developer</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+    <div id="floating-bg" class="floating-lines-container"></div>
+    <div class="spotted-overlay"></div>
+
+    <div class="container">
+        
+        <section id="hero" class="hero-section hidden-anim">
+            <div class="profile-glow">
+                <img src="assets/images/profile-photo.jpg" alt="Sourav Gour" class="profile-photo">
+            </div>
+            
+            <h1 class="glitch">Hi, I'm <span>Sourav Gour</span></h1>
+            
+            <p class="typewriter-container">
+                I'm a <span id="typewriter" class="highlight-text"></span><span class="cursor">|</span>
+            </p>
+            
+            <p class="hero-desc">
+                Full Stack Development Intern at <span class="highlight">TechCoder Software OPC Pvt. Ltd.</span> <br>
+                Skilled in building scalable web applications using the MERN stack.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="assets/sourav_cv.pdf" target="_blank" class="btn outline-btn">
+                    <i class="fa-solid fa-eye"></i> View Resume
+                </a>
+                <a href="#contact" class="btn outline-btn">Hire Me</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section hidden-anim">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Hi, I’m <span class="highlight">Sourav Gour</span>, a passionate <span class="highlight">MERN Stack Developer</span> and BCA student with a strong interest in building modern, user-friendly, and scalable web applications. I enjoy transforming ideas into real-world projects that combine clean design with powerful functionality.</p>
+                
+                <p>During my internship and training at <span class="highlight">TechCoder Software OPC Pvt. Ltd.</span>, I had the opportunity to work directly on <span class="highlight">live, client-provided projects</span>. This hands-on experience taught me how to develop robust full-stack solutions tailored to real-world business requirements, deliver quality products, and collaborate effectively in a fast-paced, industry-ready environment.</p>
+                
+                <p>My core skill set includes <span class="highlight">React, Node.js, Express, and MongoDB</span>, along with frontend tools like Tailwind CSS and backend practices such as REST APIs and authentication systems. I am also comfortable with Git, GitHub, and deployment platforms.</p>
+                
+                <p>Beyond coding, I’m deeply motivated to grow as a professional by exploring new frameworks, contributing to impactful projects, and continuously learning.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section hidden-anim">
+            <h2><i class="fa-solid fa-bolt"></i> Technical Superpowers</h2>
+            <div class="circular-skills-grid">
+                
+                <div class="skill-circle-item hidden-anim" data-percent="85">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    </svg>
+                    <div class="percentage-box"><span class="percentage">85%</span></div>
+                    <div class="skill-labels"><p class="skill-name highlight">React</p><p class="skill-desc">Frontend</p></div>
+                </div>
+
+                <div class="skill-circle-item hidden-anim" data-percent="80">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    </svg>
+                    <div class="percentage-box"><span class="percentage">80%</span></div>
+                    <div class="skill-labels"><p class="skill-name highlight">Node.js</p><p class="skill-desc">Backend</p></div>
+                </div>
+
+                <div class="skill-circle-item hidden-anim" data-percent="75">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    </svg>
+                    <div class="percentage-box"><span class="percentage">75%</span></div>
+                    <div class="skill-labels"><p class="skill-name highlight">MongoDB</p><p class="skill-desc">Database</p></div>
+                </div>
+
+                <div class="skill-circle-item hidden-anim" data-percent="85">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    </svg>
+                    <div class="percentage-box"><span class="percentage">85%</span></div>
+                    <div class="skill-labels"><p class="skill-name highlight">JavaScript</p><p class="skill-desc">Logic</p></div>
+                </div>
+
+                <div class="skill-circle-item hidden-anim" data-percent="90">
+                    <svg viewBox="0 0 36 36" class="circular-chart red">
+                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        <path class="circle-progress" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    </svg>
+                    <div class="percentage-box"><span class="percentage">90%</span></div>
+                    <div class="skill-labels"><p class="skill-name highlight">HTML/CSS</p><p class="skill-desc">UI/UX</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="featured-section hidden-anim">
+            <h2><i class="fa-solid fa-star" style="color: #ffcc00;"></i> Featured Work Experience</h2>
+            <div class="featured-card">
+                <div class="featured-img-box">
+                    <img src="assets/images/aerial-electronics.png" alt="Aerial Electronics Website">
+                </div>
+                <div class="featured-content">
+                    <div class="badge">Professional Client Project</div>
+                    <h3>Aerial Electronics</h3>
+                    <p>I contributed to the development and enhancement of the Aerial Electronics web platform during my internship at TechCoder Software. My work focused on creating a responsive, user-friendly interface that aligns with modern web standards to improve customer engagement and business presence.</p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Tailwind CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://aerialelectronics.in/" target="_blank" class="btn primary-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live Website</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section hidden-anim">
+            <h2>Core Technical Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <img src="assets/images/Fee_Payment_App.png" alt="Fee Payment App">
+                    <div class="card-content">
+                        <h3>Fee Payment App</h3>
+                        <p>A complete fee management system built with React and Node.js. Handles user authentication and secure logic.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/souravgour-17/Fee_Payment" target="_blank"><i class="fa-solid fa-code"></i> Code</a>
+                            <a href="https://fee-payment-frontend.onrender.com/#/login" target="_blank" class="live-link"><i class="fa-solid fa-play"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="assets/images/Weather_App.png" alt="Weather App">
+                    <div class="card-content">
+                        <h3>Weather App</h3>
+                        <p>Responsive weather app utilizing external APIs and Geolocation to fetch real-time weather data dynamically.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/souravgour-17/weather-api" target="_blank"><i class="fa-solid fa-code"></i> Code</a>
+                            <a href="https://souravgour-17.github.io/weather-api/" target="_blank" class="live-link"><i class="fa-solid fa-play"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="assets/images/emoji-flip.png" alt="Emoji Flip Game">
+                    <div class="card-content">
+                        <h3>Emoji Flip Game</h3>
+                        <p>An interactive memory card game built with core JavaScript logic, state management, and DOM manipulation.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/souravgour-17/Emoji_flip_game" target="_blank"><i class="fa-solid fa-code"></i> Code</a>
+                            <a href="https://souravgour-17.github.io/Emoji_flip_game/" target="_blank" class="live-link"><i class="fa-solid fa-play"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="assets/images/number-guess.png" alt="Number Guess Game">
+                    <div class="card-content">
+                        <h3>Number Guess Game</h3>
+                        <p>Interactive guessing game focusing on algorithm implementation, logic building, and real-time user feedback.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/souravgour-17/Number-Guess" target="_blank"><i class="fa-solid fa-code"></i> Code</a>
+                            <a href="https://souravgour-17.github.io/Number-Guess/" target="_blank" class="live-link"><i class="fa-solid fa-play"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section hidden-anim">
+            <h2>Let's Connect</h2>
+            <div class="social-links">
+                <a href="https://github.com/souravgour-17/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sourav-gour-0574932a9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_gour_sourav/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="floatinglines.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
